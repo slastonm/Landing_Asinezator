@@ -1,0 +1,32 @@
+/* modal box style, can be anything you want */
+.modal {
+    background: url(../img/alertform.jpg);
+    width: 360px;
+	height:259px;
+    margin: 243px auto;
+
+
+}
+
+.modal #close {
+	text-decoration:underline;
+float: right;
+color: #FFF;
+font-size: 14px;
+cursor: pointer;
+font-family: Arial;
+position: relative;
+top: -30px;
+margin-right: -2px;
+}
+
+
+/* Page visual styles, these aren't important */
+html {
+	padding: 20px;
+}
+body {
+    font-family: Georgia sans-serif;
+    width: 100%;
+}
+

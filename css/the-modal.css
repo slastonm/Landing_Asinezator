@@ -1,0 +1,67 @@
+.themodal-lock {
+	/* when modal is opened we're removing scrollbars from the main content */
+	overflow: hidden;
+}
+
+.themodal-overlay {
+	/* overlay will stay fixed and will take all the space available */
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	top: 0;
+	right: 0;
+	z-index: 100;
+
+	/* if modal content doesn't fit inside the overlay, display scrollbars */
+	overflow: auto;
+
+	/* allow one-finger iPad scrolling */
+	-webkit-overflow-scrolling: touch;
+
+}
+
+/* fix for iPad glitches */
+.themodal-overlay > * {
+	-webkit-transform: translateZ(0px);
+}
+
+.themodal-overlay {
+	background: rgba(198, 111, 42, 0.8);
+
+}
+
+
+input[type=name2],
+input[type=text2]{
+background-image: url('../img/inputbig.png');
+width: 262px;
+border: 1px solid #CCC;
+padding: 8px;
+box-sizing: border-box;
+height: 40.5px;
+margin-bottom: 9px;
+margin-left: 45px;
+}
+.more p{
+	font-size: 21px;
+	text-transform: uppercase;
+	color: #757575;
+	text-shadow: 1px 0px 0px #FFF;
+	padding: 30px 0 20px 0;
+	text-align:center;
+	font-family:Arial;
+	font-weight: 700;
+}
+.more a{
+background: url('../img/alertbtn.png') repeat scroll 0% 0% transparent;
+cursor: pointer;
+font-size: 19px;
+color: #000;
+text-shadow: 1px 0px 0px #FFF;
+font-family: UniSansHeavyCaps;
+display: block;
+width: 220px;
+text-align: center;
+padding: 15px 0px;
+margin: 11px 0px 0px 72px;
+}
